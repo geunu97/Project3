@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">
+        &#160;&#160;&#160;</string>
+    <string name="title_home">홈</string>
+    <string name="title_favorite">즐겨찾기</string>
+    <string name="title_notifications">알림</string>
+    <string name="title_message">메시지</string>
+    <string name="title_settings">설정</string>
+</resources>

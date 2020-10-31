@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:drawableTint="#3cb371"
+                android:text="My team"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:background="@drawable/color_mix"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/ic_baseline_group_add_244"
+                android:layout_margin="5dp"
+                android:text="Team"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:paddingTop="30dp"
+                android:background="#ffffff"
+                android:drawableTint="#000000" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/ic_baseline_search_24"
+                    android:layout_margin="5dp"
+                    android:text="상대팀 찾기"
+                    android:textSize="14dp"
+                    android:textColor="#000000"
+                    android:paddingTop="30dp"
+                    android:background="#ffffff"
+                    android:drawableTint="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <Button
+                android:textSize="14dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/ic_baseline_create_24"
+                android:text="글 쓰기"
+                android:paddingTop="30dp"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:drawableTint="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:textSize="14dp"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/ic_baseline_add_comment_24"
+                    android:text="평가하기"
+                    android:paddingTop="30dp"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:drawableTint="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+</LinearLayout>
+

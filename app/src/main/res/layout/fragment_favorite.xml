@@ -1,0 +1,25 @@
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/textfield"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:hint="힌트"
+    android:background="@drawable/border"
+    android:textColorHint="#2B2828"
+    app:counterEnabled="true"
+    app:counterMaxLength="10"
+    app:endIconMode="password_toggle"
+    app:errorEnabled="true"
+    app:helperText="비밀번호는 8~10자 사이로 입력해주세요."
+    app:helperTextEnabled="true"
+    app:layout_constraintTop_toBottomOf="@+id/rangeSlider"
+    app:startIconDrawable="@drawable/ic_baseline_favorite_24"
+    >
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+</com.google.android.material.textfield.TextInputLayout>
